@@ -1,0 +1,51 @@
+@font-face {
+    font-family: '2005_iannnnnAMD';
+    src: url('../fonts/2005_iannnnnAMD.ttf');
+}
+
+* {
+    font-family: '2005_iannnnnAMD',sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+.title, .subtitle, .description {
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 50px;
+}
+
+.description {
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .title {
+        font-size: 70px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+    }
+
+    .description {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+}
